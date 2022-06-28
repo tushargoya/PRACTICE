@@ -1,0 +1,52 @@
+body{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(237, 207, 86);
+	height: 10%;
+	padding: 12px;
+}
+:visites , a:link , a:active{
+	text-decoration: none;
+}
+{
+	color: black;
+	padding: 10px;
+}
+#main{
+	background-image: url(../img/children.jpg);
+	background-color: cadetblue;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 40vw;
+}
+#about{
+	background-color: azure;
+	padding: 24px;
+}
+.about-container{
+	background-color: green;
+	display: contents;
+	width: 30vw;
+	height: 280px;
+	margin-right: auto;
+	margin-right: 72px;
+}
+#contant{
+	background-color: rgb(237, 207, 86);
+	text-align: center;
+	margin: 0;
+	padding: 12px;
+}
